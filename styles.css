@@ -159,3 +159,14 @@
     background-color: var(--n-white);
     color: var(--primary-orange);
 }
+
+.thanks-title {
+    color: var(--n-white);
+    font-family: var(--mainFont);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.thanks-txt {
+    color: var(--n-lightGrey);
+}
