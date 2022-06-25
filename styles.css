@@ -50,7 +50,9 @@
     width: 50px;
     border-radius: 50%;
     position: absolute;
+    transition: 0.3s;
 }
+
 
 .two {
     background-color: var(--n-darkBlue);
@@ -59,6 +61,7 @@
     border-radius: 50%;
     position: absolute;
     margin-left: 75px;
+    transition: 0.3s;
 }
 
 .three {
@@ -68,6 +71,7 @@
     border-radius: 50%;
     position: absolute;
     margin-left: 150px;
+    transition: 0.3s;
 }
 
 .four {
@@ -76,7 +80,8 @@
     width: 50px;
     border-radius: 50%;
     position: absolute;
-    margin-left: 225px;  
+    margin-left: 225px; 
+    transition: 0.3s; 
 }
 
 .five {
@@ -86,6 +91,15 @@
     border-radius: 50%;
     position: absolute;
     margin-left: 300px;
+    transition: 0.3s;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover {
+    background-color: var(--n-medGrey);
 }
 
 .one-color {
@@ -93,13 +107,55 @@
     padding-top: 12px;
 }
 
+.two-color {
+    color: var(--n-lightGrey);
+    padding-top: 12px;
+}
+
+.three-color {
+    color: var(--n-lightGrey);
+    padding-top: 12px;
+}
+
+.four-color {
+    color: var(--n-lightGrey);
+    padding-top: 12px;
+}
+
+.five-color {
+    color: var(--n-lightGrey);
+    padding-top: 12px;
+}
+
+.one-color:hover,
+.two-color:hover,
+.three-color:hover,
+.four-color:hover,
+.five-color:hover {
+    color: var(--n-white);
+}
+
+.whenClickedFont {
+    color: var(--n-white) !important;
+}
+
+.whenClickedBg {
+    background-color: var(--primary-orange) !important;
+}
+
 .card-btn {
     width: 100%;
     margin-top: 90px;
-    height: 40px;
-    border-radius: 20px;
+    height: 50px;
+    border-radius: 25px;
     font-family: var(--mainFont);
     background-color: var(--primary-orange);
     color: var(--n-white);
     letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.card-btn:hover {
+    background-color: var(--n-white);
+    color: var(--primary-orange);
 }
