@@ -1,0 +1,105 @@
+:root {
+    --primary-orange: hsl(25, 97%, 53%);
+    --n-white: hsl(0, 0%, 100%);
+    --n-lightGrey: hsl(217, 12%, 63%);
+    --n-medGrey: hsl(216, 12%, 54%);
+    --n-darkBlue: hsl(213, 19%, 18%);
+    --n-veryDarkBlue: hsl(216, 12%, 8%);
+    --mainFont: "Overpass", sans-serif;
+}
+
+.main-bg {
+    background-color: black;
+    height: 100vh;
+}
+
+.card {
+    width: 400px;
+    height: 450px;
+    background-image: radial-gradient(ellipse at top, var(--n-darkBlue), var(--n-veryDarkBlue));
+    border-radius: 20px !important;
+}
+
+.icon-bg {
+    background-color: var(--n-darkBlue);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -100;
+    top: 48px;
+    left: 23px;
+}
+
+.card-main-title {
+    color: var(--n-white);
+    font-family: var(--mainFont);
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.card-txt {
+    color: var(--n-lightGrey);
+    font-size: 15px;
+    font-family: var(--mainFont);
+}
+
+.one {
+    background-color: var(--n-darkBlue);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.two {
+    background-color: var(--n-darkBlue);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 75px;
+}
+
+.three {
+    background-color: var(--n-darkBlue);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 150px;
+}
+
+.four {
+    background-color: var(--n-darkBlue);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 225px;  
+}
+
+.five {
+    background-color: var(--n-darkBlue);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.one-color {
+    color: var(--n-lightGrey);
+    padding-top: 12px;
+}
+
+.card-btn {
+    width: 100%;
+    margin-top: 90px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: var(--mainFont);
+    background-color: var(--primary-orange);
+    color: var(--n-white);
+    letter-spacing: 2px;
+}
